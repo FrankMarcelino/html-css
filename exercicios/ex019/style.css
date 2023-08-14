@@ -1,0 +1,50 @@
+@charset "UTF-8"
+/*
+   tudo: 
+   que em HTML é id = em CSS é # (obs. você tbm consegue colocar Id e CLASS no mesmo elemento) 
+   que em HTML é class = em CSS é  . (obs. Não ter nome pela formula mais pela funcionalidade)
+   se vc precisar  no HTML indetificar duas class para o mesmo objeto não precisa colocar vircula ou qualquer outra coisa, a não ser o espaço entre as nomeclaturas que você deu para as  class.
+*/
+
+/*
+SISTEMA DE HIERARQUIA  NO CSS:
+O CSS funciona como uma cascata, então o elemento sempre vai herdar o que vem antes na folha do Documento de CSS. Um sobrepondo o outro
+*/
+body {
+    background-color:#d6fde9 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    color: #1e4021;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2 {
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.basico {
+    color: #3c805e;
+    
+}
+
+.intermediario {
+    color: #7f803c;
+}
+
+.avançado  {
+    color: #804c3c;
+}
+
+.destaque {
+    background-color: rgba(190, 190, 68, 0.452);
+}

@@ -25,22 +25,23 @@
             padding: 10px;
         }
         /* Declarações retrato (portrait) */
-        @media screen and (orientation: portrait){
+        @media screen and (orientation: portrait) {
+            body {
+            background-image: url(../mq003/imagens/cev-portrait.jpg);
+            background-image: center bottom; 
+            }
             
         }
-        body {
-        background-image: url(../imagens/cev-portrait.jpg);
-        background-image: center bottom; 
-        }
+       
         /* Declarações paisagem(landscape)*/
         @media screen and (orientation: landscape) {
-            
+                body {
+            background-image: url(../mq003/imagens/cev-landscape.jpg);
+            background-position: left bottom;
+            }    
         }
 
-        body {
-        background-image: url(../imagens/cev-landscape.jpg);
-        background-position: left bottom;
-        }
+        
     </style>
 </head>
 <body>
